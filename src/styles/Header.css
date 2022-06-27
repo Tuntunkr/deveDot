@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-nav {
+  font-size: 1.2rem;
+}
+
+.customNav .navbar-nav a {
+  margin: 0 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar_list {
+  border: 3px;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 1px;
+
+  font-size: 16px;
+  opacity: 1;
+}
+.navbar_lists {
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+
+  letter-spacing: 1px;
+  color: #c4c2c2 !important;
+  background: transparent url("../assets//Group\ 5.svg") 0% 50% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #7958d7;
+  color: white;
+  letter-spacing: 1px;
+  color: #ffffff;
+  opacity: 1;
+  border-radius: 2px;
+  outline: none;
+  width: 200px;
+  margin-left: 20px;
+  border: none;
+  text-decoration: none;
+}
+
+.logo {
+  top: 70px;
+  width: 14.18rem;
+  opacity: 1;
+}
+
+.nav-links li a:hover {
+  background: white;
+  symbols: "|";
+}
+.mega-box {
+  position: absolute;
+  width: 50%;
+  opacity: 0;
+  visibility: hidden;
+  width: 425px;
+  height: 177px;
+  border: 1px solid rebeccapurple;
+}
+.nav-links li:hover .mega-box {
+  transition: all 0.7s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.contentes {
+  padding: 12px 120px 10px 10px;
+  display: flex;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+.main {
+  line-height: 30px;
+}
+
+.main p {
+  color: #000;
+  font-weight: bold;
+}
+
+.mega-links {
+  margin-left: -10px;
+  border-left: 1px solid #000000;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #9a9999;
+  opacity: 1;
+}
+
+.mega-links :hover {
+  color: #000;
+}
+
+.mega-links li {
+  padding: 0 10px;
+}
+
+.mega-links li a {
+  padding: 0 20px;
+  color: #9a9999;
+  font-size: 17px;
+  display: inline-block;
+  width: 80%;
+}
+
+.justify-content-end {
+  margin-top: 10px;
+}

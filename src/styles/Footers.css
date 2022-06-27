@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100&display=swap');
+
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  padding: 3px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footimg{
+opacity: 1;
+width: 55%;
+
+}
+
+ul{
+  list-style: none;
+}
+li{
+  text-align: justify;
+}
+.footer{
+  background-color: #7958D7;
+    padding: 70px 0;
+    
+}
+.footer-col{
+   width: 100%;
+   padding:  11px;
+}
+
+.footer-dot {
+  color: #ffffff;
+}
+
+h5{
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 500;
+  position: relative;
+  
+} 
+
+h6{
+  text-align: left;
+  /* font: normal normal 300 18px/21px Work Sans; */
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 0px;
+  color: #D2D2D2;
+  opacity: 1;
+
+}
+
+ ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+ ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+ ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  /* margin:0 10px 10px 0; */
+  margin-left: 24px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.rows{
+  display: flex;
+  justify-content: space-between;
+  color: #D2D2D2;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

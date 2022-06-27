@@ -1,0 +1,10 @@
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="340.5" height="80" viewBox="0 0 340.5 80">
+  <g id="Group_1" data-name="Group 1" transform="translate(-742.5 -479)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(748 479)" fill="none" stroke="#fff" stroke-width="3">
+      <circle cx="40" cy="40" r="40" stroke="none"/>
+      <circle cx="40" cy="40" r="38.5" fill="none"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x2="92" transform="translate(742.5 519.5)" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+  <text id="DeveloperDot" transform="translate(107.5 51)" fill="#fff" font-size="36" font-family="MicrosoftTaiLe, Microsoft Tai Le" letter-spacing="0.02em"><tspan x="0" y="0">Developer</tspan><tspan y="0" font-family="MicrosoftTaiLe-Bold, Microsoft Tai Le" font-weight="700">Dot</tspan></text>
+</svg>
